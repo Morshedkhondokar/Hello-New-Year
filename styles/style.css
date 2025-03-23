@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -126,4 +127,109 @@ body {
 
 .banner_three_right{
     margin-top: -67px;
+}
+
+/* address style */
+.address{
+    height: 482px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 120px 0;
+    /* border: 2px solid saddlebrown; */
+}
+
+.address_content{
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.highlight_text{
+    color: var(--primari-color);
+}
+
+.address_title{
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    line-height: 56px;
+    font-weight: 600;
+}
+
+.address_btn{
+    padding: 10px 15px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: var(--secondary-color);
+    background: var(--primari-color);
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+/* Offer section styles */
+
+.offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.offer_left{
+    width: 393px;
+    height: 255px;
+}
+
+.sub_title{
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--primari-color);
+    margin-bottom: 16px;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+
+.description{
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.offer_center{
+    width: 463px;
+    height: 463px;
+    border: 10px solid var(--primari-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inside{
+    width: 364px;
+    height: 364px;
+    background-image: url(../images/Ellipse\ 1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.offer_right{
+    width: 276px;
+    height: 170px;  
+    margin-top: -65px;
+}
+
+.offer_right img{
+    width: 140px;
+    height: 132px;
+    margin-top: 43px;
 }
