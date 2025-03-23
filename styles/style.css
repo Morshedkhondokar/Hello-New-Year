@@ -233,3 +233,55 @@ body {
     height: 132px;
     margin-top: 43px;
 }
+
+/* discount section */
+.discount{
+    height: 986px;
+    /* border: 2px solid goldenrod; */
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.discount_sale_content{
+    text-align: center;
+    width: 1068px;
+    margin: 0 auto;
+}
+.sale_sub_title{
+    font-weight: 500;
+    font-size: 24px;
+    color: rgb(7, 2, 17);
+}
+
+.discount_header{
+    font-weight: 900;
+    font-size: 72px;
+    margin-top: 30px;
+    margin-bottom: 28px;
+}
+
+.discount_description{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+
+
+.discount_container{
+    width: 100%;
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+
+.discount_right{
+    width: 305px;
+    margin-top: 77px;
+}
