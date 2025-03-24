@@ -465,3 +465,8 @@ footer{
     right: 0;
 }
 
+.footer_center{
+    display: flex;
+    gap: 24px;
+}
+
