@@ -10,10 +10,13 @@
 :root{
     --primari-color: #FF0000;
     --secondary-color: #fff;
+    --first-font-family:'Merriweather', serif;
+
 }
 
 body {
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
+    font-family: 'Inter', sans-serif;
 }
 
 .container{
@@ -50,6 +53,7 @@ body {
     font-weight: 800;
     text-align: center;
     margin-top: 16px;
+    font-family: var(--first-font-family);
 }
 
 /* banner tow style */
@@ -98,7 +102,6 @@ body {
     color: var(--secondary-color);
     margin-top: 100px;
     padding: 120px 0 0 65px;
-    /* padding-top: 120px; */
     display: flex;
     gap: 40px;
 }
@@ -153,7 +156,6 @@ body {
 
 .address_title{
     font-size: 32px;
-    font-family: 'Inter', sans-serif;
     line-height: 56px;
     font-weight: 600;
 }
@@ -238,7 +240,6 @@ body {
 .discount{
     height: 986px;
     /* border: 2px solid goldenrod; */
-    font-family: 'Inter', sans-serif;
     position: relative;
     border-radius: 10px;
     overflow: hidden;
@@ -260,6 +261,7 @@ body {
     font-size: 72px;
     margin-top: 30px;
     margin-bottom: 28px;
+    font-family: var(--first-font-family);
 }
 
 .discount_description{
@@ -284,4 +286,68 @@ body {
 .discount_right{
     width: 305px;
     margin-top: 77px;
+}
+
+/* gift section */
+.gift{
+    height: 1082px;
+    /* border: 2px solid tomato; */
+    margin: 120px 0;
+}
+
+.gift_sub_title{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    color: var(--primari-color);
+    margin-bottom: 16px;
+}
+
+.gift_title{
+    font-size: 48px;
+    font-family: var(--first-font-family);
+    font-weight: 900;
+    line-height: 60px;
+    margin-bottom: 22px;
+}
+
+.gift_description{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 48px;
+}
+
+.gift_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gift_box{
+    width: 385px;
+    height: 410px;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+}
+
+.gift_box:nth-child(1){
+    background-image: url(../images/Rectangle\ 3.png);
+}
+.gift_box:nth-child(2){
+    background-image: url(../images/Rectangle\ 4.png);
+}
+.gift_box:nth-child(3){
+    background-image: url(../images/Rectangle\ 5.png);
+}
+.gift_box:nth-child(4){
+    background-image: url(../images/Rectangle\ 6.png);
+}
+.gift_box:nth-child(5){
+    background-image: url(../images/Rectangle\ 7.png);
+}
+.gift_box:nth-child(6){
+    background-image: url(../images/Rectangle\ 8.png);
 }
