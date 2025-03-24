@@ -470,3 +470,7 @@ footer{
     gap: 24px;
 }
 
+.footer_right img{
+    margin: 10px 16px 0 0;
+}
+
